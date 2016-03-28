@@ -34,7 +34,7 @@ class Timer extends React.Component {
 	componentDidMount() {
 		setInterval(() => {
 			this.update();
-		})
+		}, 1000)
 	}
 
 

@@ -19733,7 +19733,7 @@
 
 				setInterval(function () {
 					_this2.update();
-				});
+				}, 1000);
 			}
 		}, {
 			key: 'render',
