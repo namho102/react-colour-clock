@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('fonts/Futura.eot');
+	src: url('fonts/Futura.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Futura.woff') format('woff'),
+		url('fonts/Futura.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+body {
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.clock {
+	font-family: 'Futura';
+	font-size: 80px;
+	color: #fff;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
