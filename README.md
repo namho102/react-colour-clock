@@ -1,1 +1,1 @@
-# react-colour-clock
+# A hexadecimal color clock.
